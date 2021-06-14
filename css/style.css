@@ -7252,7 +7252,7 @@ html {
 
 .container__nav {
   position: fixed;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.397);
   z-index: 2;
   width: 100%;
   margin: 0;
