@@ -4,11 +4,6 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-//my imports
-@import 'colores';
-@import 'boxes';
-@import 'fonts';
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 // bootstrap imports
 @import "functions";
 @import "variables";
@@ -47,3 +42,8 @@
 @import "spinners";
 @import "utilities";
 @import "print";
+
+//my imports
+@import 'estilo';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
