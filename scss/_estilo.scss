@@ -236,7 +236,12 @@ html{
   }
 
   .divisor2{
-    margin-bottom: -2px;
+    background-image: url("../assets/img/divisor2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 100px;
+    width: 100%;
   }
   .divisor3 {
     background-image: url("../assets/img/divisor3.png");
