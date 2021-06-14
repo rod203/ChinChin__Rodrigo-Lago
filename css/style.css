@@ -7199,8 +7199,8 @@ html {
   font-family: 'Quicksand', sans-serif; }
 
 .margin__reset {
-  margin: 0;
-  padding: 0; }
+  margin: 0px;
+  padding: 0px; }
 
 /*****
 
@@ -7415,6 +7415,9 @@ html {
   line-height: 22px;
   background-color: rgba(255, 255, 255, 0.548); }
 
+.divisor1 {
+  margin-bottom: -2px; }
+
 .divisor2 {
   background-image: url("../assets/img/divisor2.png");
   background-size: cover;
@@ -7428,7 +7431,8 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100px;
-  width: 100%; }
+  width: 100%;
+  margin-top: -2px; }
 
 .divisor4 {
   background-image: url("../assets/img/footer-pattern1.png");
