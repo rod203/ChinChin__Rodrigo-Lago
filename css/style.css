@@ -7527,7 +7527,7 @@ html{
     flex-direction: column;
     max-width: 300px;
   }
-  .celebracion__texto--mod h1 {
+  .celebracion__texto--mod h2 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     text-transform:uppercase;
