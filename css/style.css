@@ -7254,9 +7254,7 @@ html {
   position: fixed;
   background-color: rgba(255, 255, 255, 0.397);
   z-index: 2;
-  width: 100%;
-  margin: 0;
-  padding: 10px; }
+  width: 100%; }
 
 .navbar-nav a {
   font-family: 'Quicksand', sans-serif;
@@ -7287,10 +7285,14 @@ html {
 .navbar-nav a:active {
   background-size: 100% 2em; }
 
+.container__logo {
+  position: absolute;
+  background-color: blanchedalmond;
+  margin-top: 40px;
+  padding: 15px; }
+
 .logonav {
-  width: 80px;
-  margin-right: 20px;
-  margin-left: 10px; }
+  width: 100px; }
 
 #navbar__burger {
   z-index: 2;
