@@ -15,18 +15,20 @@
 <body>
     <header class="header__color">
         <div class="container-fluid container__navbar">
-            <nav class="navbar navbar-expand-lg container__nav">
-                <img src="../assets/img/logo-nav.png" alt="logo" class="logonav">
+            <div class="container__logo">
+                <img src="./assets/img/logo-nav.svg" alt="logo" class="logonav">
+            </div>
+            <nav class="navbar navbar-expand-lg container__nav justify-content-end">
                 <button id="navbar__burger" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon "></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="../index.html">Inicio</a>
-                        <a class="nav-item nav-link" href="about.html">Que Hacemos?</a>
-                        <a class="nav-item nav-link" href="comprar.html">Como comprar</a>
-                        <a class="nav-item nav-link" href="galeria.html">Especiales</a>
-                        <a class="nav-item nav-link" href="contacto.html">Contacto</a>
+                        <a class="nav-item link__active " href="index.html">Inicio</a>
+                        <a class="nav-item " href="./pages/about.html">¿Qué hacemos?</a>
+                        <a class="nav-item " href="./pages/comprar.html">Como comprar</a>
+                        <a class="nav-item " href="./pages/galeria.html">Especiales</a>
+                        <a class="nav-item link__active" href="./pages/contacto.html">Contacto</a>
                     </div>
                 </div>
             </nav>

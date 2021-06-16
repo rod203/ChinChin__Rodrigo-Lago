@@ -28,7 +28,76 @@ html{
   .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   }
-
+  .container__navbar {
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+  }
+  .container__nav {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    width: 100%;
+    background-image: url(../assets/img/backgroud-generico.png);
+    background-size: 80%;
+  }
+  .navbar-nav a {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: black;
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    margin: 5px 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+  }
+  .navbar-nav a::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  .navbar-nav a:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .navbar-nav a::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: #ffde99ad;
+    z-index: -1;
+    transition: transform .3s ease;
+    border-radius: 5px;
+  }
+  .navbar-nav a:active::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .link__active {
+    background: linear-gradient(to top,#ffde99ad, #ffdf9986 );
+    border-radius: 5px;
+  }
+  .container__logo {
+    position: absolute;
+    position:fixed;
+    background-color: #f3a6c1fa;
+    padding: 15px;
+    margin-left: 20px;
+    z-index: 9999;
+    border-radius: 0% 0% 10% 10%;
+    box-shadow: rgba(0, 0, 0, 0.116) -1px 2px 3px;
+  }
+  .logonav {
+    width: 100px;
+  }
+  #navbar__burger {
+    z-index: 2;
+    margin: 10px;
+  }
   /*****
 
         MAIN
@@ -60,55 +129,6 @@ html{
     width: 600px;
     margin: auto;
     z-index: 1;
-  }
-  .container__navbar {
-    margin: 0;
-    padding: 0;
-    z-index: 0;
-  }
-  .container__nav {
-    position: fixed;
-    background-color: rgb(255, 255, 255);
-    z-index: 2;
-    width: 100%;
-  }
-  .navbar-nav a {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
-    color: black;
-    text-align: center;
-    font-size: 16px;
-    margin: 5px 10px;
-    padding: 0 12px;
-  }
-  @keyframes bonton-hover {
-    20% {
-        background-color: maroon;
-        background-position: bottom right;
-        background-size: 100% 0.600em;
-    }
-  }
-  .navbar-nav a:hover{
-    background-size: 100% 0.500em;
-    font-weight: 500;
-  }
-
-  .container__logo {
-    position: absolute;
-    position:fixed;
-    background-color: #f3a6c1fa;
-    padding: 15px;
-    margin-left: 20px;
-    z-index: 9999;
-    border-radius: 0% 0% 10% 10%;
-    box-shadow: rgba(0, 0, 0, 0.116) -1px 2px 3px;
-  }
-  .logonav {
-    width: 100px;
-  }
-  #navbar__burger {
-    z-index: 2;
-    margin: 10px;
   }
   @keyframes shake-animation {
     0% { transform:translate(0,0) }
