@@ -7208,9 +7208,7 @@ html {
 
   *****/
 .header__color {
-  background-color: #e7ccf0cb;
-  background-image: url("../assets/img/texturaFondo.png");
-  background-repeat: repeat; }
+  background-color: #e7ccf0a6; }
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
@@ -7238,7 +7236,8 @@ html {
   font-size: 18px;
   margin: 5px 10px;
   padding: 10px 15px;
-  text-decoration: none; }
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.644); }
 
 .navbar-nav a::before {
   transform: scaleX(0);
