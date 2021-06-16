@@ -71,6 +71,7 @@ html{
     background-color: rgb(255, 255, 255);
     z-index: 2;
     width: 100%;
+    height: 70px;
   }
   .navbar-nav a {
     font-family: 'Quicksand', sans-serif;
@@ -302,7 +303,24 @@ html{
     height: 150px;
     width: 100%;
   }
-
+  .divisor__amarillo--up{
+    background-image: url("../assets/img/divisor-amarillo--up.svg");
+    background-size: cover;
+    background-color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 100px;
+    width: 100%;
+  }
+  .divisor__amarillo--down{
+    background-image: url("../assets/img/divisor-amarillo--down.svg");
+    background-size: cover;
+    background-color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 100px;
+    width: 100%;
+  }
     /*****
 
         FESTEJOS
@@ -603,6 +621,7 @@ html{
 
 .about__flex {
   display: flex;
+  flex-direction: column-reverse;
   justify-content: center;
   flex-wrap: wrap-reverse;
   align-items: center;
@@ -612,7 +631,7 @@ html{
   background-image: url(../assets/img/bg-festejos.png);
   background-size: 900px;
   background-position: bottom center;
-  padding: 200px 50px 50px 50px;
+  padding: 150px 50px 50px 50px;
 }
 .hacemos__img {
   background: linear-gradient(to bottom, #45b3df, rgba(250,157,183, 0.5));
@@ -633,8 +652,12 @@ html{
   margin-top: 10px;
   margin-left: 20px;
 }
+.container__kits {
+  background: url(../assets/img/celebracion-background.png);
+  background-size: cover;  
+}
 .kits__color {
-  padding-top: 50px;
+  padding: 40px;
 }
 .kits__texto-contenedor {
   display: flex;
@@ -642,13 +665,7 @@ html{
   align-content: center;
   align-items: center;
 }
-.kits__texto {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  max-width: 400px;
-  padding: 30px;
-}
+
 @media only screen and (max-width: 567px) {
   .kits__img-contenedor{
     display: flex;
@@ -657,34 +674,56 @@ html{
   .kits__texto-contenedor {
     justify-content: center;
   }
+  .container__kits {
+    padding: 40px;
+  }
 }
 .kits__img-mod-back {
   position: absolute;
+  margin-left: -20px;
+  margin-top: -20px;
 }
 .kits__img-mod-img {
   position: relative;
-  margin-top: 20px;
-  margin-left: 20px;
   border-radius: 50px;
 }
-.container__galeria {
-  background-color: #88d4f2;
-  background-image: url(../assets/img/bg-festejos.png);
-  background-size: 900px;
-  background-position: bottom center;
-  padding: 50px 50px 50px 50px;
-}
-.galeria__img {
+.kits__texto {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  max-width: 400px;
+  padding: 30px;
 }
+.kits__texto h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  text-transform:uppercase;
+  background: linear-gradient(to top, #fa9db780, #fa9db780);
+  position: relative;
+  z-index: 1;
+  font-size: 40px;
+  line-height: 40px;
+  width: 240px;
+  margin: 0 -12px;
+  padding: 0 12px;
+  background-repeat: no-repeat;
+  background-size: 50% 0.500em;
+  background-position: 0% 100%;
+}
+.kits__texto p {
+  margin: 20px 0px;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 22px;
+  background-color: rgba(255, 255, 255, 0.548);
+}
+
 .container__piniata {
-  background-image: url(../assets/img/backgroud-generico.png);
+  background-image: url(../assets/img/bg-festejos.png);
   background-position: bottom center;
   background-size:auto;
   padding: 100px 40px;
+  background-color: #fff0bc;
 }
-
 
 
 /** 
