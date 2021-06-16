@@ -7783,81 +7783,24 @@ html {
   background-position: bottom center;
   padding: 200px 50px 50px 50px; }
 
-.about__texto {
-  display: flex;
-  justify-content: center; }
-
-.about__texto--mod {
-  font-family: 'Baloo Chettan 2', cursive;
+.hacemos__img {
+  background: linear-gradient(to bottom, #45b3df, rgba(250, 157, 183, 0.5));
+  box-shadow: black 1px 1px 10px;
+  border-radius: 200px;
+  width: 200px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
-  flex-direction: column;
-  max-width: 400px; }
+  -webkit-box-shadow: inset 0px 0px 0px 5px #ffffff17;
+  -moz-box-shadow: inset 0px 0px 0px 5px #ffffff17;
+  box-shadow: inset 0px 0px 0px 8px #ffffff17; }
 
-.about__texto--mod h2 {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 45px;
-  line-height: 45px; }
-
-.about__texto--mod p {
-  margin: 20px 0px;
-  font-family: 'Quicksand', sans-serif;
-  line-height: 22px;
-  text-align: center; }
-
-.container__about {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center; }
-
-.about__img {
-  display: flex;
-  position: relative;
-  z-index: 1;
-  justify-content: flex-end;
-  align-items: center;
-  align-content: center; }
-
-@media only screen and (max-width: 767px) {
-  .about__celebracion {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center; }
-  .about__img {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    align-content: center; }
-  .container__about {
-    display: flex;
-    justify-content: center;
-    align-content: center; } }
-
-.about__img--img-mod {
-  z-index: 1;
-  position: relative; }
-
-.about__img--front-mod {
-  position: absolute;
-  transform: translatey(0px);
-  animation: float2 6s ease-in-out infinite;
-  margin-top: 10px; }
-
-.about__img--back-mod {
-  position: absolute;
+.hacemos__img--mod {
+  width: 150px;
   margin-top: 10px;
-  z-index: -1;
-  transform: translatey(0px);
-  animation: float2 6s ease-in-out infinite;
-  animation-delay: 1s; }
+  margin-left: 20px; }
 
 .kits__color {
   padding-top: 50px; }
@@ -7911,19 +7854,6 @@ html {
 /** 
   COMO COMPRAR
 **/
-.comprar__flex {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap-reverse;
-  align-items: center;
-  background-size: cover;
-  padding-bottom: 40px;
-  background-color: #88d4f2;
-  background-image: url(../assets/img/bg-festejos.png);
-  background-size: 900px;
-  background-position: bottom center;
-  padding: 200px 50px 50px 50px; }
-
 .comprar__texto {
   display: flex;
   justify-content: center; }
