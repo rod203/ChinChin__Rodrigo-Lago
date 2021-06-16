@@ -7259,8 +7259,7 @@ html {
 
 .navbar-nav a {
   font-family: 'Quicksand', sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
+  font-weight: 400;
   color: black;
   text-align: center;
   font-size: 16px;
@@ -7274,10 +7273,8 @@ html {
     background-size: 100% 0.600em; } }
 
 .navbar-nav a:hover {
-  background-size: 100% 0.500em; }
-
-.navbar-nav a:active {
-  background-size: 100% 2em; }
+  background-size: 100% 0.500em;
+  font-weight: 500; }
 
 .container__logo {
   position: absolute;
