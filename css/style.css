@@ -7226,7 +7226,8 @@ html {
   z-index: 2;
   width: 100%;
   background-image: url(../assets/img/backgroud-generico.png);
-  background-size: 80%; }
+  background-size: 80%;
+  background-position: center; }
 
 .navbar-nav a {
   font-family: 'Quicksand', sans-serif;
