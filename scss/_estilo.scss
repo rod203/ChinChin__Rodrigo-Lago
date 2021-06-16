@@ -38,9 +38,9 @@ html{
     background-color: rgb(255, 255, 255);
     z-index: 2;
     width: 100%;
-    background-image: url(../assets/img/backgroud-generico.png);
-    background-size: 80%;
-    background-position: center;
+    background-image: url(../assets/img/backgroud-generico2.png);
+    background-size: 50%;
+    padding-top: 30px;
   }
   .navbar-nav a {
     font-family: 'Quicksand', sans-serif;
@@ -86,11 +86,11 @@ html{
     position: absolute;
     position:fixed;
     background-color: #f3a6c1fa;
-    padding: 15px;
+    padding: 40px 20px 20px 20px;
     margin-left: 20px;
     z-index: 9999;
     border-radius: 0% 0% 10% 10%;
-    box-shadow: rgba(0, 0, 0, 0.116) -1px 2px 3px;
+    box-shadow: rgba(0, 0, 0, 0.041) -1px 2px 2px;
   }
   .logonav {
     width: 100px;
