@@ -7256,7 +7256,7 @@ html {
   bottom: 0;
   left: 0;
   inset: 0 0 0 0;
-  background: #ffde99ad;
+  background: linear-gradient(to top, #ffde99ad, #ffdf9986);
   z-index: -1;
   transition: transform .3s ease;
   border-radius: 5px; }
@@ -7266,7 +7266,7 @@ html {
   transform-origin: bottom left; }
 
 .link__active {
-  background: linear-gradient(to top, #ffde99ad, #ffdf9986);
+  background: linear-gradient(to top, #ffdf9923, #ffdf9942);
   border-radius: 5px; }
 
 .container__logo {
@@ -7821,7 +7821,7 @@ html {
   background-image: url(../assets/img/bg-festejos.png);
   background-size: 900px;
   background-position: bottom center;
-  padding: 150px 50px 50px 50px; }
+  padding: 200px 50px 20px 50px; }
 
 .hacemos__img {
   background: linear-gradient(to bottom, #45b3df, rgba(250, 157, 183, 0.5));
@@ -7922,36 +7922,25 @@ html {
   justify-content: center;
   align-items: center;
   align-content: center;
-  flex-direction: column;
-  max-width: 400px; }
+  flex-direction: column; }
 
 .comprar__texto--mod h2 {
   font-family: 'Quicksand', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
+  color: white;
   text-transform: uppercase;
-  font-size: 45px;
-  line-height: 45px; }
-
-.comprar__texto--mod p {
-  margin: 20px 0px;
-  font-family: 'Quicksand', sans-serif;
-  line-height: 22px;
-  text-align: left; }
-
-.comprar__img {
-  background: linear-gradient(to bottom, #f3ecd9, rgba(250, 243, 232, 0.733));
-  box-shadow: black 1px 1px 10px;
-  border-radius: 200px;
-  width: 200px;
-  height: 200px;
-  margin: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  -webkit-box-shadow: inset 0px 0px 0px 5px #ffffff17;
-  -moz-box-shadow: inset 0px 0px 0px 5px #ffffff17;
-  box-shadow: inset 0px 0px 0px 8px #ffffff17; }
+  background: linear-gradient(to top, #fdcfdc, #fdcfdc);
+  position: relative;
+  z-index: 1;
+  font-size: 60px;
+  line-height: 55px;
+  margin: 0 -12px;
+  padding: 0 12px;
+  background-repeat: no-repeat;
+  background-size: 100% 0.500em;
+  text-shadow: -3px 3px 0px #89d5f2;
+  background-position: 0% 100%;
+  padding-bottom: 10px; }
 
 .tiempo__flex {
   display: flex;
@@ -8027,8 +8016,7 @@ html {
   padding: 0 12px;
   background-repeat: no-repeat;
   background-size: 100% 0.600em;
-  background-position: 0% 100%;
-  transition: background-size 1.8s 0.7s; }
+  background-position: 0% 100%; }
 
 .tiempo__texto--mod p {
   margin: 20px 0px;
