@@ -7846,6 +7846,10 @@ html {
   background: url(../assets/img/celebracion-background.png);
   background-size: cover; }
 
+.container__piniata {
+  background: url(../assets/img/backgroud-generico.png);
+  background-size: cover; }
+
 .kits__color {
   padding: 40px; }
 
