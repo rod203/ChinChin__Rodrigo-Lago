@@ -628,8 +628,19 @@ html{
   .redes__icon--mod {
     width: 50px;
   }
-
-
+.powered {
+  display: flex;
+  justify-content:center;
+  align-content: center;
+  align-items: center;
+}
+.powered__texto h4{
+  font-size: 18px;
+  font-weight: 200;
+}
+.powered__texto h4 strong {
+  font-weight: 600;
+}
   /*****
 
         NOSOTROS
