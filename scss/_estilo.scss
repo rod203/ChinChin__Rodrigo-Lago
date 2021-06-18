@@ -734,15 +734,44 @@ html{
   background-color: rgba(255, 255, 255, 0.548);
 }
 
-.container__piniata {
+.container__plastico {
   background-image: url(../assets/img/bg-festejos.png);
   background-position: bottom center;
-  background-size:auto;
-  padding: 100px 40px;
+  background-size:cover;
+  padding: 60px 20px 20px 20px;
   background-color: #fff0bc;
 }
-
-
+.plastico__texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.plastico__texto h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 38px;
+  max-width: 450px;
+}
+.plastico__texto p {
+  font-weight: 100;
+  max-width: 600px;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 30px;
+  padding: 10px;
+}
+.plastico__texto p strong {
+  font-weight: 500;
+}
+.h__divisor{
+    height:1px;
+    width: 100px;
+    border-top:1px solid gray;
+}
 /** 
   COMO COMPRAR
 **/
@@ -802,7 +831,7 @@ flex-direction: column;
   margin-left: -80px;
 }
 @media only screen and (max-width: 767px){
-tiempo__celebracion {
+.tiempo__celebracion {
     display: flex;
     flex-direction: column;
   }
