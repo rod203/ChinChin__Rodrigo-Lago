@@ -749,7 +749,35 @@ html{
   line-height: 22px;
   background-color: rgba(255, 255, 255, 0.548);
 }
-
+.piniata__texto {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  max-width: 400px;
+  padding: 30px;
+}
+.piniata__texto h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  text-transform:uppercase;
+  background: linear-gradient(to top, #fa9db780, #fa9db780);
+  position: relative;
+  z-index: 1;
+  font-size: 40px;
+  line-height: 40px;
+  width: 240px;
+  margin: 0 -12px;
+  padding: 0 12px;
+  background-repeat: no-repeat;
+  background-size: 80% 0.500em;
+  background-position: 0% 100%;
+}
+.piniata__texto p {
+  margin: 20px 0px;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 22px;
+  background-color: rgba(255, 255, 255, 0.548);
+}
 .container__plastico {
   background-image: url(../assets/img/bg-festejos.png);
   background-position: bottom center;
@@ -788,7 +816,10 @@ html{
     width: 100px;
     border-top:1px solid gray;
 }
-
+.container__deco{
+  background-color: #88d4f2;
+  height: 400px;
+}
 
 /** 
   COMO COMPRAR
