@@ -545,6 +545,16 @@ html{
     background-color: #45b3df69;
     /*background: linear-gradient(to top, #fa9db780, #45b3df69);*/
   }
+  .botoncategoria__borde a {
+    text-decoration: none;
+  }
+  .botoncategoria__borde a:active {
+    animation: shake-animation 0.2s ease infinite;
+    transform-origin: 50% 50%;
+  }
+  .botoncategoria__link {
+    text-decoration: none;
+  }
   .botoncategoria__txt {
     background: linear-gradient(to bottom, #ffde99, #f8e8c5);
     border: 5px solid #eeca7c4b;
@@ -774,7 +784,6 @@ html{
 }
 .container__piniata {
   margin-bottom: 50px;
-  margin-top: 50px;
 }
 .piniata__color {
   margin: 40px;
@@ -945,7 +954,7 @@ html{
   font-weight: 700;
   background: linear-gradient(to top, #ffffff, #ffffff);
   position: relative;
-  color: #185183;
+  color: #294b69;
   z-index: 1;
   font-size: 48px;
   line-height: 40px;
