@@ -7878,7 +7878,10 @@ html {
   background-size: cover; }
 
 .kits__color {
-  padding: 40px; }
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .kits__texto-contenedor {
   display: flex;
@@ -7933,6 +7936,13 @@ html {
   background-color: rgba(255, 255, 255, 0.548);
   letter-spacing: 0.4px; }
 
+.texto__listas {
+  font-family: 'Quicksand', sans-serif; }
+
+.texto__listas--item {
+  margin-left: 30px;
+  margin-bottom: 10px; }
+
 .container__piniata {
   margin-bottom: 50px;
   margin-top: 50px; }
@@ -7963,6 +7973,14 @@ html {
   margin: 20px 0px;
   font-family: 'Quicksand', sans-serif;
   line-height: 22px;
+  background-color: rgba(255, 255, 255, 0.548);
+  letter-spacing: 0.4px; }
+
+.piniata__texto i {
+  margin: 0px 0px;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 22px;
+  font-size: 14px;
   background-color: rgba(255, 255, 255, 0.548);
   letter-spacing: 0.4px; }
 
@@ -8081,20 +8099,20 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 800px;
-  padding-top: 100px; }
+  max-width: 700px;
+  margin: 50px 20px 0px 20px; }
 
 .especiales__text h2 {
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
-  color: white;
-  background: linear-gradient(to top, #6b6b6b11, #6b6b6b11);
+  background: linear-gradient(to top, #ffffff, #ffffff);
   position: relative;
+  color: #185183;
   z-index: 1;
   font-size: 48px;
   line-height: 40px;
   margin: 0 -12px;
-  padding: 0 10px;
+  padding: 0 20px;
   background-repeat: no-repeat;
   background-size: 100% 0.300em;
   background-position: 0% 100%; }
@@ -8105,7 +8123,7 @@ html {
   line-height: 22px;
   letter-spacing: 0.4px;
   text-align: center;
-  color: white; }
+  columns: #185183; }
 
 .especiales__fotos {
   display: flex;
@@ -8113,15 +8131,27 @@ html {
   justify-content: center;
   align-items: center;
   align-content: center;
-  margin: 40px; }
+  margin: 20px; }
 
 .especiales__fotos--mod {
   width: 250px;
   margin: 15px;
   border-radius: 20px;
-  border: 2px #fdfdfd8a;
-  border-style: dashed;
+  border: 2px #0000001c;
+  border-style: solid;
   box-shadow: -5px 5px 0px 3px #00000013; }
+
+.especiales__fondoblanco {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.26);
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 50px;
+  margin: 80px 50px 0px 50px;
+  border: #ffffff 2px;
+  border-style: dashed; }
 
 /** 
   COMO COMPRAR
@@ -8146,6 +8176,7 @@ html {
   background: linear-gradient(to top, #fdcfdc, #fdcfdc);
   position: relative;
   z-index: 1;
+  display: inline;
   font-size: 60px;
   line-height: 55px;
   margin: 0 -12px;
@@ -8156,18 +8187,11 @@ html {
   background-position: 0% 100%;
   padding-bottom: 10px; }
 
-.tiempo__flex {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap-reverse;
-  align-items: center;
-  background: url(../assets/img/celebracion-background.png);
+.tiempo__container {
+  background: url(../assets/img/backgroud-generico2.png);
   background-size: cover;
-  flex-direction: row-reverse; }
-
-.container__tiempo {
-  display: flex;
-  justify-content: flex-end; }
+  margin-top: 80px;
+  margin-bottom: 75px; }
 
 .tiempo__img {
   display: flex;
@@ -8175,19 +8199,7 @@ html {
   z-index: 1;
   justify-content: flex-start;
   align-items: center;
-  align-content: center;
-  margin-left: -80px; }
-
-@media only screen and (max-width: 767px) {
-  .tiempo__celebracion {
-    display: flex;
-    flex-direction: column; }
-  .tiempo__img {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    align-content: center; } }
+  align-content: center; }
 
 .tiempo__img--img-mod {
   z-index: 1;
@@ -8205,35 +8217,152 @@ html {
   animation: float2 6s ease-in-out infinite;
   animation-delay: 1s; }
 
-.tiempo__texto {
+.container__comprar {
   display: flex;
   justify-content: center;
-  padding: 20px; }
+  align-content: center;
+  align-items: center; }
 
-.tiempo__texto--mod {
-  font-family: 'Baloo Chettan 2', cursive;
-  display: flex;
-  flex-direction: column;
-  max-width: 300px; }
-
-.tiempo__texto--mod h2 {
+.item__texto--mod {
+  text-align: right;
   font-family: 'Quicksand', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  background: linear-gradient(to top, #fa9db780, #fa9db780);
+  letter-spacing: 0.5px; }
+
+.item__texto {
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 0.5px; }
+
+.item__texto--mod h4 {
+  background: linear-gradient(to top, #fdcfdc, #fdcfdc);
   position: relative;
   z-index: 1;
-  font-size: 45px;
-  line-height: 45px;
-  width: 300px;
+  display: inline;
   margin: 0 -12px;
   padding: 0 12px;
   background-repeat: no-repeat;
-  background-size: 100% 0.600em;
+  background-size: 100% 0.500em;
   background-position: 0% 100%; }
 
-.tiempo__texto--mod p {
-  margin: 20px 0px;
-  font-family: 'Quicksand', sans-serif;
-  line-height: 22px;
-  background-color: rgba(255, 255, 255, 0.548); }
+.item__texto h4 {
+  background: linear-gradient(to top, #fdcfdc, #fdcfdc);
+  position: relative;
+  z-index: 1;
+  display: inline;
+  margin: 0 -12px;
+  padding: 0 12px;
+  background-repeat: no-repeat;
+  background-size: 100% 0.500em;
+  background-position: 0% 100%; }
+
+.item__texto--mod p {
+  padding: 15px; }
+
+.item__texto p {
+  padding: 15px; }
+
+.tiempo__fila1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 250px; }
+
+.tiempo__fila2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 250px; }
+
+.tiempo__item1 {
+  margin-bottom: 50px;
+  margin-right: -50px; }
+
+.tiempo__item2 {
+  margin-bottom: 50px;
+  margin-right: -20px; }
+
+.tiempo__item3 {
+  margin-right: -40px; }
+
+.tiempo__item4 {
+  margin-bottom: 50px;
+  margin-left: -40px; }
+
+.tiempo__item5 {
+  margin-bottom: 50px; }
+
+.tiempo__item6 {
+  margin-left: -20px; }
+
+@media only screen and (max-width: 992px) {
+  .container__comprar {
+    flex-direction: column; }
+  .tiempo__fila1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    max-width: 800px; }
+  .tiempo__fila2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 800px; }
+  .item__texto--mod {
+    text-align: center; }
+  .item__texto {
+    text-align: center; }
+  .tiempo__item1 {
+    padding: 0px 20px 0px 20px;
+    margin: 0px 0px -80px 0px; }
+  .tiempo__item2 {
+    padding: 0px 20px 0px 20px;
+    margin: 0px 0px -40px 0px; }
+  .tiempo__item3 {
+    padding: 0px 20px 0px 20px;
+    margin: 0px 0px -80px 0px; }
+  .tiempo__item4 {
+    padding: 0px 20px 0px 20px;
+    margin: -50px 0px 0px 0px; }
+  .tiempo__item5 {
+    padding: 0px 20px 0px 40px;
+    margin: 10px 0px -40px 0px; }
+  .tiempo__item6 {
+    padding: 0px 20px 0px 20px;
+    margin: -50px 0px 0px 10px; } }
+
+@media only screen and (max-width: 576px) {
+  .container__comprar {
+    flex-direction: column; }
+  .tiempo__fila1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin-bottom: -20px; }
+  .tiempo__fila2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 10px 10px; }
+  .item__texto--mod {
+    text-align: center; }
+  .item__texto {
+    text-align: center; }
+  .tiempo__item1 {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px; }
+  .tiempo__item2 {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px; }
+  .tiempo__item3 {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px; }
+  .tiempo__item4 {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px; }
+  .tiempo__item5 {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px; }
+  .tiempo__item6 {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px; } }
