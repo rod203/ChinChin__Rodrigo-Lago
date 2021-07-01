@@ -1243,3 +1243,21 @@ flex-direction: column;
     margin: 0px 0px 0px 0px;
   }
 }
+
+// galeria 
+.galerai__color {
+  background-image: url(../assets/img/backgroud-generico2.png);
+  background-size: contain;
+}
+.contenedor__galeria {
+  margin: 100px 50px 100px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.galeria__imagen--mod {
+  max-height: 400px;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: -5px 5px 0px 3px #89d4f271;
+}
