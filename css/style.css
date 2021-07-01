@@ -7420,6 +7420,7 @@ html {
 
 .celebracion__texto--mod p {
   margin: 20px 0px;
+  letter-spacing: 0.5px;
   font-family: 'Quicksand', sans-serif;
   line-height: 22px;
   background-color: rgba(255, 255, 255, 0.548); }
@@ -7567,7 +7568,7 @@ html {
   margin: 0px;
   height: 80px;
   letter-spacing: 1px;
-  color: #3d3d3d; }
+  color: #f3f3f3; }
 
 .festejos__img {
   background: linear-gradient(to bottom, #45b3df, rgba(250, 157, 183, 0.5));
@@ -7643,7 +7644,8 @@ html {
 .actividad__txt p {
   font-family: 'Quicksand', sans-serif;
   margin: 20px;
-  background-color: rgba(255, 255, 255, 0.575); }
+  letter-spacing: 0.5px;
+  background-color: rgba(255, 255, 255, 0.781); }
 
 .actividad__txt h2 {
   font-family: 'Quicksand', sans-serif;
@@ -7656,6 +7658,7 @@ html {
   line-height: 38px;
   margin: 0 -12px;
   padding: 0 12px;
+  letter-spacing: 0.5px;
   background-repeat: no-repeat;
   background-size: 100% 0.500em;
   background-position: 0% 100%; }
@@ -7745,7 +7748,8 @@ html {
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: initial;
+  letter-spacing: 1px;
   color: #f7f1ee;
   margin: 0px;
   text-shadow: 0px 1px 2px #00000031; }
