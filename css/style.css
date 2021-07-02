@@ -7999,8 +7999,8 @@ html {
 
 .container__plastico {
   background-image: url(../assets/img/bg-festejos.png);
+  background-size: 1000px;
   background-position: bottom center;
-  background-size: cover;
   padding: 60px 20px 20px 20px;
   background-color: #fff0bc; }
 
@@ -8101,7 +8101,8 @@ html {
 .container__especiales {
   background-color: #88d4f2;
   background-image: url(../assets/img/bg-festejos.png);
-  background-size: cover;
+  background-size: 1000px;
+  background-position: bottom center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -8203,8 +8204,8 @@ html {
 .tiempo__container {
   background: url(../assets/img/backgroud-generico2.png);
   background-size: cover;
-  margin-top: 80px;
-  margin-bottom: 75px; }
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 .tiempo__img {
   display: flex;
