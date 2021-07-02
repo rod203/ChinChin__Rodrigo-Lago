@@ -7836,7 +7836,8 @@ html {
 
 .powered__texto h4 {
   font-size: 18px;
-  font-weight: 200; }
+  font-weight: 200;
+  margin: 0px; }
 
 .powered__texto h4 strong {
   font-weight: 600; }
@@ -8396,3 +8397,40 @@ html {
   margin: 10px;
   border-radius: 20px;
   box-shadow: -5px 5px 0px 3px #89d4f271; }
+
+.contacto__contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap-reverse;
+  margin: 0px 50px 50px 50px; }
+
+.container__formulario {
+  margin: 0px 0px;
+  padding: 0px 0px; }
+
+.container__formulario-texto {
+  text-align: center;
+  margin-bottom: 30px; }
+
+.container__formulario-texto h3 {
+  background: linear-gradient(to top, #fdcfdc, #fdcfdc);
+  position: relative;
+  z-index: 1;
+  font-size: 36px;
+  font-weight: 600;
+  display: inline;
+  padding: 0 12px;
+  background-repeat: no-repeat;
+  background-size: 100% 0.500em;
+  background-position: 0% 100%; }
+
+.contenido__map {
+  margin: 40px; }
+
+.contenido__mad--mod {
+  border-radius: 40px;
+  border: 0px;
+  height: 450px;
+  max-width: 450; }
