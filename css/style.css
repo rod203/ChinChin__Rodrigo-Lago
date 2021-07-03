@@ -7315,7 +7315,9 @@ html {
   position: absolute;
   width: 600px;
   margin: auto;
-  z-index: 1; }
+  z-index: 1;
+  transform: translatey(0px);
+  animation: float3 4s ease-in-out infinite; }
 
 @keyframes shake-animation {
   0% {
@@ -7334,6 +7336,14 @@ html {
     transform: translate(0, 0); }
   100% {
     transform: translate(0, 0); } }
+
+@keyframes float3 {
+  0% {
+    transform: translatey(0px); }
+  50% {
+    transform: translatey(10px); }
+  100% {
+    transform: translatey(0px); } }
 
 /*****
 
@@ -8405,7 +8415,8 @@ html {
   align-items: center;
   align-content: center;
   flex-wrap: wrap-reverse;
-  margin: 0px 50px 50px 50px; }
+  margin: 0px 50px 50px 50px;
+  background-image: url(../assets/img/backgroud-generico2.png); }
 
 .container__formulario {
   margin: 0px 0px;
